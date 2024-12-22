@@ -247,6 +247,7 @@ header{
     width: 360px;
     left: 5px;
     margin-left: 20px;
+    margin-top: 25px;
     top: 125px;
 }
 .third li h3{
@@ -272,7 +273,7 @@ header{
     color: #F4F4FD;
     position: relative;
 }
-.end a {
+.end>.logo-end{
     display: inline-block;
     position: relative;
     vertical-align: middle;
