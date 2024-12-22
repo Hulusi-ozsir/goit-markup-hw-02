@@ -1,23 +1,23 @@
-body{
-    position: relative;
-    width: 1250px;
-    height: auto;
-    left: auto;
-    top: auto;
-    box-sizing: border-box;
-    display: block;
-    align-items: center;
-    padding: 0%;
-    flex-direction: column;
-    gap: 0px;
-    border-radius: 0%;
-    box-shadow: none;
-    order: inherit;
-    flex-grow: inherit;
-    border-bottom: #ffffff;
-    color: #434455;
-    background-color: #ffffff;
-    font-family: "Roboto", Arial, sans-serif;
+body {
+  position: relative;
+  width: 1250px;
+  height: auto;
+  left: auto;
+  top: auto;
+  box-sizing: border-box;
+  display: block;
+  align-items: center;
+  padding: 0%;
+  flex-direction: column;
+  gap: 0px;
+  border-radius: 0%;
+  box-shadow: none;
+  order: inherit;
+  flex-grow: inherit;
+  border-bottom: #ffffff;
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 /*header başlangıç*/
 header {
@@ -120,7 +120,7 @@ header {
 }
 .hero button {
   background-color: #4d5ae5;
-  font-family: "Roboto", Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -158,7 +158,7 @@ header {
   left: 20px;
   margin-left: 10px;
 }
-.first li > .h-3 {
+.first li > .h-first {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -279,7 +279,7 @@ header {
   color: #f4f4fd;
   position: relative;
 }
-.end >.logo-end {
+.end > .logo-end {
   display: inline-block;
   position: relative;
   vertical-align: middle;
