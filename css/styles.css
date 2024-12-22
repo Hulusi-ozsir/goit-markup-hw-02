@@ -2,6 +2,8 @@ body{
     position: relative;
     display: block;
     font-family: roboto;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 /*header başlangıç*/
 .page{
@@ -12,17 +14,21 @@ body{
     height: 50px;
     position: relative;
 }
-.logo{
+.logo-one{
     vertical-align: middle;
-    color: #2E2F42;
+    font-family: raleway;
+    color: #4D5AE5;
     font-size: 18px;
+    line-height: 1.17;
     font-weight: 700;
     height: 25px;
     margin-left: 75px;
     text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.logo>.web{
-    color: #4D5AE5;
+.logo-one>.studio{
+    color: #2E2F42;
 }
 .nav{
     vertical-align: middle;
@@ -44,20 +50,38 @@ body{
     text-decoration: none;
     font-size: 16px;
     margin-left: 30px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;    
 }
-.address{
-    display: inline-block;
+.nav>.list-one>li a:hover{
+    color: #404BBF;
+}
+.add-one{
     position: relative;
-    vertical-align: middle;
-    margin-left: 325px;
-}
-.address a{
-    color: #2E2F42;
-    text-decoration: none;
+    display: inline-block;
+    font-family: roboto;
+    font-style: normal;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-left: 200px;
 }
-.address>.tel{
+.add-one li{
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+}
+.add-one li a{
+    text-decoration: none;
+    color: #434455;
     margin-left: 25px;
+}
+.add-one li a:hover{
+    color: #404BBF;
+}
+.add-one li a:focus{
+    color: #404BBF;
 }
 /*header bitiş*/
 /*main hero başlangıç*/
@@ -72,8 +96,8 @@ body{
 .hero h1{
     color: white;
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     position: relative;
     display: inline-block;
     text-align: center;
@@ -86,6 +110,9 @@ body{
     background-color: #4D5AE5;
     color: #ffffff;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     width: 169px;
     height: 56px;
     margin-left: 550px;
@@ -93,12 +120,17 @@ body{
     border-radius: 4px;
     cursor: pointer;
 }
+.hero button:hover{
+    background-color: #404BBF;
+}
+.hero button:focus{
+    background-color: #404BBF;
+}
 /*main hero bitiş*/
 /*main first başlangıç*/
 .first{
     width: 1250px;
     height: 250px;
-    color: #2E2F42;
     position: relative;
     display: block;
     top: -16px;
@@ -113,6 +145,19 @@ body{
     left: 25px;
     margin-left: 10px;
 }
+.first li h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.first li p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 /*main first bitiş*/
 /*main second başlangıç*/
 .second{
@@ -126,13 +171,14 @@ body{
     position: relative;
     display: inline-block;
     color: #2E2F42;
-    width: 162px;
+    width: 240px;
     height: 40px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
+    line-height: 1.11px;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     top: 100px;
     left: 550px;
 }
@@ -148,6 +194,19 @@ body{
     margin-left: 10px;
     top: 125px;
     box-shadow: 0px 1px 6px 0px #2E2F4214;
+}
+.second li h3{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+.second li p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*main second bitiş*/
 /*main third başlangıç*/
@@ -166,41 +225,39 @@ body{
     height: 40px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 2%;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
     top: 100px;
     left: 500px;
 }
-.third .portfolio-one li{
+.third li{
     border: 1px solid #E7E9FC;
     position: relative;
     display: inline-block;
-    background-color: #ffffff;
     text-align: left;
-    font-size: 20px;
-    line-height: 24px;
     width: 360px;
     left: 5px;
     margin-left: 20px;
     top: 125px;
 }
-.third .portfolio-two li {
-    border: 1px solid #E7E9FC;
-    position: relative;
-    display: inline-block;
-    background-color: #ffffff;
-    text-align: left;
+.third li h3{
     font-size: 20px;
-    line-height: 24px;
-    width: 360px;
-    left: 5px;
-    margin-left: 20px;
-    top: 150px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    color: #2E2F42;
+}
+.third li p{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 /*main third bitiş*/
 /*footer başlangıç*/
-footer{
+.end{
     background-color: #2E2F42;
     display: block;
     width: 1250px;
@@ -208,23 +265,31 @@ footer{
     color: #F4F4FD;
     position: relative;
 }
-.end a{
-    position: relative;
+.end a {
     display: inline-block;
-    color: #F4F4FD;
+    position: relative;
+    vertical-align: middle;
+    font-family: raleway;
+    color: #4D5AE5;
     font-size: 18px;
+    line-height: 1.17;
     font-weight: 700;
-    width: 120px;
     height: 25px;
-    margin-top: 100px;
+    top: 50px;
     margin-left: 100px;
     text-decoration: none;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
-.end a>.web {
-    color: #4D5AE5;
+.end a>.studio {
+    color: #F4F4FD;
 }
 .end p{
+    position: relative;
+    top: 50px;
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     width: 300px;
     margin-left: 100px;
     margin-top: 10px;
