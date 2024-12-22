@@ -1,305 +1,311 @@
 body{
     position: relative;
-    display: block;
-    font-family: "roboto", sans-serif;
-    color: #434455;
-    background-color: #FFFFFF;
     width: 1250px;
     height: auto;
     left: auto;
     top: auto;
     box-sizing: border-box;
+    display: block;
     align-items: center;
     padding: 0%;
     flex-direction: column;
-    gap: 0;
+    gap: 0px;
     border-radius: 0%;
     box-shadow: none;
     order: inherit;
     flex-grow: inherit;
-    border-bottom: #FFFFFF;
+    border-bottom: #ffffff;
+    color: #434455;
+    background-color: #ffffff;
+    font-family: "Roboto", Arial, sans-serif;
 }
 /*header başlangıç*/
-header{
-    display: block;
-    position: relative;
-    width: 1250px;
-    height: 50px;
+header {
+  display: block;
+  position: relative;
+  width: 1250px;
+  height: 50px;
 }
 .nav {
-    display: inline-block;
-    position: relative;
-    margin-left: 100px;
+  display: inline-block;
+  position: relative;
+  margin-left: 100px;
 }
-.nav>.logo-one{
-    display: inline-block;
-    position: relative;
-    text-decoration: none;
-    font-family: "raleway";
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #4D5AE5;
+.nav > .logo-one {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
-.nav>.logo-one>.studio{
-    color: #2E2F42;
+.nav > .logo-one > .studio {
+  color: #2e2f42;
 }
-.nav>.list-one{
-    display: inline-block;
-    position: relative;
-    margin-left: 100px;
+.nav > .list-one {
+  display: inline-block;
+  position: relative;
+  margin-left: 100px;
 }
-.nav>.list-one li{
-    display: inline-block;
-    position: relative;
+.nav > .list-one li {
+  display: inline-block;
+  position: relative;
 }
-.nav>.list-one a{
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    color: #2E2F42;
-    margin-left: 25px;
+.nav > .list-one a {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
+  margin-left: 25px;
 }
-.add-one{
-    display: inline-block;
-    position: relative;
-    margin-left: 150px;
-    font-style: normal;
+.add-one {
+  display: inline-block;
+  position: relative;
+  margin-left: 150px;
+  font-style: normal;
 }
-.add-one li{
-    display: inline-block;
-    position: relative;
+.add-one li {
+  display: inline-block;
+  position: relative;
 }
-.add-one li a{
-    text-decoration: none;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    margin-left: 25px;
+.add-one li a {
+  text-decoration: none;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  margin-left: 25px;
 }
-.nav a:hover{
-    color: #404BBF;
+.nav a:hover {
+  color: #404bbf;
 }
-.nav a:focus{
-    color: #404BBF;
+.nav a:focus {
+  color: #404bbf;
+}
+.add-one a:hover {
+  color: #404bbf;
+}
+.add-one a:focus {
+  color: #404bbf;
 }
 /*header bitiş*/
 /*main hero başlangıç*/
-.hero{
-    background-color: #2E2F42;
-    width: 1250px;
-    height: 600px;
-    position: relative;
-    display: block;
-    font-family: roboto;
+.hero {
+  background-color: #2e2f42;
+  width: 1250px;
+  height: 600px;
+  position: relative;
+  display: block;
+  font-family: "Roboto", Arial, sans-serif;
 }
-.hero h1{
-    color: white;
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    position: relative;
-    display: inline-block;
-    text-align: center;
-    width: 500px;
-    height: 125px;
-    margin-left: 400px;
-    margin-top: 150px;
+.hero h1 {
+  color: white;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 500px;
+  height: 125px;
+  margin-left: 400px;
+  margin-top: 150px;
 }
-.hero button{
-    background-color: #4D5AE5;
-    font-family: "roboto", sans-serif;
-    color: #ffffff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    width: 169px;
-    height: 56px;
-    margin-left: 550px;
-    border: 1px solid #4D5AE5;
-    border-radius: 4px;
-    cursor: pointer;
+.hero button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  width: 169px;
+  height: 56px;
+  margin-left: 550px;
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.hero button:hover{
-    background-color: #404BBF;
+.hero button:hover {
+  background-color: #404bbf;
 }
-.hero button:focus{
-    background-color: #404BBF;
+.hero button:focus {
+  background-color: #404bbf;
 }
 /*main hero bitiş*/
 /*main first başlangıç*/
-.first{
-    width: 1250px;
-    height: 250px;
-    position: relative;
-    display: block;
-    top: -16px;
+.first {
+  width: 1250px;
+  height: 250px;
+  position: relative;
+  display: block;
+  top: -16px;
 }
-.first li{
-    position: relative;
-    display: inline-block;
-    list-style: none;
-    width: 264px;
-    height: 104px;
-    top: 50px;
-    left: 25px;
-    margin-left: 10px;
+.first li {
+  position: relative;
+  display: inline-block;
+  list-style: none;
+  width: 270px;
+  height: 104px;
+  top: 50px;
+  left: 20px;
+  margin-left: 10px;
 }
-.first li>.h-3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+.first li > .h-3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.first li>.p-first{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.first li > .p-first {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /*main first bitiş*/
 /*main second başlangıç*/
-.second{
-    background-color: #F4F4FD;
-    position: relative;
-    display: block;
-    width: 1250px;
-    height: 750px;
+.second {
+  background-color: #f4f4fd;
+  position: relative;
+  display: block;
+  width: 1250px;
+  height: 750px;
 }
-.second h2{
-    position: relative;
-    display: inline-block;
-    color: #2E2F42;
-    width: 240px;
-    height: 40px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    top: 100px;
-    left: 550px;
+.second h2 {
+  position: relative;
+  display: inline-block;
+  color: #2e2f42;
+  width: 240px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  top: 100px;
+  left: 550px;
 }
-.second li{
-    position: relative;
-    display: inline-block;
-    background-color: #ffffff;
-    text-align: center;
-    font-size: 20px;
-    line-height: 24px;
-    width: 264px;
-    left: 20px;
-    margin-left: 10px;
-    top: 125px;
-    box-shadow: 0px 1px 6px 0px #2E2F4214;
+.second li {
+  position: relative;
+  display: inline-block;
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 20px;
+  line-height: 24px;
+  width: 264px;
+  left: 20px;
+  margin-left: 10px;
+  top: 125px;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
-.second li h3{
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
+.second li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
 }
-.second li p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.second li p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /*main second bitiş*/
 /*main third başlangıç*/
-.third{
-    background-color: #FFFFFF;
-    position: relative;
-    display: block;
-    width: 1250px;
-    height: 1250px;
+.third {
+  background-color: #ffffff;
+  position: relative;
+  display: block;
+  width: 1250px;
+  height: 1250px;
 }
-.third h2{
-    position: relative;
-    display: inline-block;
-    color: #2E2F42;
-    width: 250px;
-    height: 40px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    top: 100px;
-    left: 500px;
+.third h2 {
+  position: relative;
+  display: inline-block;
+  color: #2e2f42;
+  width: 250px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  top: 100px;
+  left: 500px;
 }
-.third li{
-    border: 1px solid #E7E9FC;
-    position: relative;
-    display: inline-block;
-    text-align: left;
-    width: 360px;
-    left: 5px;
-    margin-left: 20px;
-    margin-top: 25px;
-    top: 125px;
+.third li {
+  border: 1px solid #e7e9fc;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+  width: 360px;
+  left: 5px;
+  margin-left: 20px;
+  margin-top: 25px;
+  top: 125px;
 }
-.third li h3{
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    color: #2E2F42;
+.third li h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  color: #2e2f42;
 }
-.third li p{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
+.third li p {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
 /*main third bitiş*/
 /*footer başlangıç*/
-.end{
-    background-color: #2E2F42;
-    display: block;
-    width: 1250px;
-    height: 250px;
-    color: #F4F4FD;
-    position: relative;
+.end {
+  background-color: #2e2f42;
+  display: block;
+  width: 1250px;
+  height: 250px;
+  color: #f4f4fd;
+  position: relative;
 }
-.end>.logo-end{
-    display: inline-block;
-    position: relative;
-    vertical-align: middle;
-    font-family: "raleway";
-    color: #4D5AE5;
-    font-size: 18px;
-    line-height: 1.17;
-    font-weight: 700;
-    height: 25px;
-    top: 50px;
-    margin-left: 100px;
-    text-decoration: none;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
+.end >.logo-end {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 700;
+  height: 25px;
+  top: 50px;
+  margin-left: 100px;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
-.end a>.studio {
-    color: #F4F4FD;
+.end a > .studio {
+  color: #f4f4fd;
 }
-.end p{
-    position: relative;
-    top: 50px;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    width: 300px;
-    margin-left: 100px;
-    margin-top: 10px;
+.end p {
+  position: relative;
+  top: 50px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 10px;
 }
 /*footer bitiş*/
